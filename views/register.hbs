@@ -1,0 +1,24 @@
+<form action="/register" method="post">
+    <div class="form-group">
+        <h1>Register</h1>
+        <span class="togglePg">Already have an account? <a href="/login">Login!</a></span>
+    </div>
+    <div class="form-group">
+        <label>Username: </label>
+        <input type="text" name="username" id="username" placeholder="Enter an username" required>
+    </div>
+    <div class="form-group">
+        <label>Password: </label>
+        <input type="password" name="password" id="password" placeholder="Set a password" required>
+    </div>
+    <div>
+        <input type="submit" value="Register">
+
+        {{#if error }}
+        <br>
+        <p class="err-msg">
+            Username is already taken
+        </p>
+        {{/if}}
+    </div>
+</form>
