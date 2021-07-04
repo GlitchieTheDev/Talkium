@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "publish": "git add -A && git commit -m \"Updated\""
+    "publish": "git add -A && git commit -m \"Updated\" && git push && git status"
   },
   "keywords": [],
   "author": "",
