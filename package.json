@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "publish": "git remote add origin https://github.com/HelloRBX/Talkium.git && git branch -M v1 && git push -u origin v1"
+    "publish": "git add -A && git commit -m \"Updated\""
   },
   "keywords": [],
   "author": "",
